@@ -1,0 +1,19 @@
+Sudo apt update
+
+Sudo apt install docker.io -y
+
+Sudo docker --version 
+
+Sudo systemctl status docker
+
+Sudo docker ps
+
+Sudo docker images
+ 
+Sudo docker -d nginx
+
+Sudo docker ps -a
+
+Sudo docker run -d -p 8000:80 nginx
+
+Sudo docker run -d -p 8888:80 -v /home/website: /usr/share/nginx/html nginx
